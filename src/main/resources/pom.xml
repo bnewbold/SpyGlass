@@ -60,11 +60,6 @@
             <name>Cloudera CDH</name>
             <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
         </repository>
-        <repository>
-            <id>mystery-meat</id>
-            <name>Internet Mystery Meat</name>
-            <url>https://mvnrepository.com/artifact/org.scalaz.stream/scalaz-stream</url>
-        </repository>
     </repositories>
 
     <dependencies>
