@@ -1,3 +1,25 @@
+
+This is a fork of [ParallelAI/SpyGlass](https://github.com/ParallelAI/SpyGlass)
+with updated dependencies and compatability, for use at the Internet Archive.
+
+- new SpyGlass version string: `2.11_0.17.2_cdh5.3.1`
+- Java 7 compilation level
+- Scala 2.11.8
+- Hadoop 2.5.0-cdh5.3.1
+- HBase 0.98.6-cdh5.3.1
+- Scalding 0.17.2
+
+To build a .jar locally and include it in your host-local sbt "preload"
+repository:
+
+    mvn clean install -U
+    mkdir -p ~/.sbt/preloaded/parallelai/
+    cp -r ~/.m2/repository/parallelai/parallelai.spyglass ~/.sbt/preloaded/parallelai
+
+This has been tested with OpenJDK 1.8 on linux and macOS machines.
+
+--------
+
 SpyGlass
 ========
 
