@@ -18,6 +18,14 @@ repository:
 
 This has been tested with OpenJDK 1.8 on linux and macOS machines.
 
+To upload to a static maven repository in petabox using the 'internetarchive'
+python tool:
+
+    mkdir -p /tmp/repository
+    cp -r ~/.m2/repository/parallelai /tmp/repository
+    cd /tmp
+    ia upload ia_sandcrawler_maven2 /tmp/repository
+
 --------
 
 SpyGlass
