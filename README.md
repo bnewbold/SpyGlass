@@ -2,7 +2,7 @@
 This is a fork of [ParallelAI/SpyGlass](https://github.com/ParallelAI/SpyGlass)
 with updated dependencies and compatability, for use at the Internet Archive.
 
-- new SpyGlass version string: `2.11_0.17.2_cdh5.3.1`
+- new SpyGlass version string: `2.11_0.17.2_cdh5.3.1-p1`
 - Java 7 compilation level
 - Scala 2.11.8
 - Hadoop 2.5.0-cdh5.3.1
