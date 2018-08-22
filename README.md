@@ -24,7 +24,7 @@ python tool:
     mkdir -p /tmp/repository
     cp -r ~/.m2/repository/parallelai /tmp/repository
     cd /tmp
-    ia upload ia_sandcrawler_maven2 /tmp/repository
+    ia upload ia_sandcrawler_maven2 repository
 
 --------
 
