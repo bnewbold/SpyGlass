@@ -31,7 +31,7 @@ public class HBaseRecordReaderGranular extends HBaseRecordReaderBase {
   private ResultScanner scanner;
   private long timestamp = -1;
   private int rowcount = 0;
-  private final int scanCaching = 1000;
+  private final int scanCaching = 100; // bnewbold: important that client val matches remote server val (which is 100 by default)
 
   @Override
   public String toString() {
